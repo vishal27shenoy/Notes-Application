@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    user-select: none;
+}
+.profilecontainer{
+    color: white;
+    height:330px;
+    width: 270px;
+    position: absolute;
+    border-radius: 5px;
+    top: 120%;
+    left: 82%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 5;
+    border: solid black 1px;
+    background-color: #2b2a33;
+}
+.Plogoutbtn{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+.Plogoutbtn>button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #37474f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    border-radius: 3px;
+}
+.Pname,.Pusername,.Pemail{
+    font-size: 13px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: fit-content;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid gray 1px;
+}
+.profilepic{
+    position: relative;
+    top: 5%;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.wholecontainer{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.leftcontainer{
+    background-color: #1cbc9c;
+    width: 650px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.image > img{
+    height: 80px;
+    width: 80px;
+}
+.image{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+.textcontainer{
+    display: flex;
+    height: fit-content;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;    
+    user-select: none;
+}
+.loginbutton{
+    margin-top: 90px;
+    font-size: 15px;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.button{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: gray solid 2px;
+    font-family: monospace;
+    color: white;
+    background-color: transparent;
+    font-weight: 700;
+
+}
+.button:hover{
+    transition-duration:.5s;
+    background-color: rgba(255, 255, 255, 0.255);
+}
+.rightconatiner{
+    width: 80%;
+    display: grid;
+    place-items: center;
+    transition-duration: 3s;
+}
+.inputcontainer{
+    height: 400px;
+    transition-duration: 3s;
+    width: 600px;
+}
+.name,.username,.email,.password,.confirmpassword{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+}
+.name>input,.username>input,.email>input,.password>input,.confirmpassword>input{
+    height: 35px;
+    width: 300px;
+    outline: none;
+    border: solid gray 1px;
+    border-radius: 8px;
+    text-indent: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Rbutton{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+
+}
+.Regbutton{
+    width: 300px;
+    height: 35px;
+    border-radius:20px ;
+    background-color: #1cbc9c;
+    color: white;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+.Regbutton:hover{
+    transition-duration:.5s;
+    background-color: #1cbc9ca2;
+}
+.circledesign{
+    height: 900px;
+    width: 900px;
+    background-color: #1cbc9c;
+    border-radius: 20%;
+    position: absolute;
+    top: 0%; 
+    left: 90%;
+    z-index: -30;
+    transition-duration: 3s;
+}
+.boxdesign{
+    height: 120px;
+    border-top-left-radius: 70%;
+    width: 300px;
+    background-color: #1cbc9c;
+    position: absolute;
+    bottom: -15%;
+    left: 80%;
+}

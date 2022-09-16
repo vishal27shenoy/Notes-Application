@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar_container{
+    width: 100%;
+    background-color: #1cbc9c;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+}
+.leftcontainer_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    user-select: none;
+}
+.rightcontainer_navbar{
+    display: flex;
+    margin-left: auto;
+    color: white;
+    user-select: none;
+}
+.home,.notes,.aboutus,.profile{
+    margin-right: 40px;
+    width: fit-content;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home:hover,.notes:hover,.aboutus:hover,.profile:hover{
+    color: purple;
+    border-bottom: solid purple 2px;
+}
+.addnotesbutton{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1cbc9c;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: fixed;
+    top: 87%;
+    left: 93%;
+    user-select: none;
+    z-index: 5;
+}
+.inputtitle > input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    width: 450px;
+    height: 25px;
+    outline: none;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputtitle{
+    margin-bottom: 5px;
+}
+.inputtitle{
+    width: fit-content;
+    height: 30px;
+    margin: auto;
+    margin-top: 5px;
+}
+.textareaF{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5px;
+}
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 450px;
+    height: 80px;
+    resize: none;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.titleanddescription{
+    position: fixed;
+    left: 35%;
+    top: 20%;
+    z-index: 3;
+    margin-top: 40px;
+    width: 480px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.notescontainer{
+    position: fixed;
+    top: 43%;
+    width: 100%;
+    height: 500px;
+    overflow-y:scroll;
+    z-index: -10;
+}
+.notestitleanddescription{
+    width: 100%;
+    height:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-bottom: 40px;  
+}
+.notescon{
+    margin-top: 20px;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid lightgray 1px;
+    margin-bottom: 80px;
+    padding: 10px;
+    
+}
+.notesdescription{
+    height: 80px;
+    overflow: scroll;
+}
+.notesbuttondel{
+    position:relative;
+    left: 98.5%;
+    top: -13%;
+    z-index: 0;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+    font-size: 10px;
+    color: white;
+    border: solid white 1px;
+    display: none;
+    user-select: none;
+    cursor: pointer;
+}
+.notescon:hover .notesbuttondel{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    height: 140px;
+    display: grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+}
+.notescon:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    height: 140px;
+}
+.notescon:hover .notestitle{
+    position: relative;
+    top: -10%;
+}
+.notescon:hover .notesdescription{
+    position: relative;
+    top: -10%;
+}
+.notesbtnupdate{
+    display: none;
+}
+.notesbtnupdate:hover,.copybutton:hover{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.362);
+}
+.notescon:hover .notesbtnupdate{
+    width: 25px;
+    height: 25px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.btnupdate{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.copybutton{
+    display: none;
+}
+.buttoncontainer{
+    display: flex;
+}
+.notescon:hover .copybutton{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+    cursor: pointer;
+}
+.buttoncontainer{
+    display: flex;
+}

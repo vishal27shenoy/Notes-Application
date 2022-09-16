@@ -1,0 +1,29 @@
+.searchbar{
+    width: 400px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin-left: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    top: 2.5%;
+    left: 8%;
+}
+.searchbar > input{
+    height: 35px;
+    width: 360px;
+    outline: none;
+    border: none;
+    background: transparent;
+    text-indent: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.searchicon{
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-items: center;
+}
